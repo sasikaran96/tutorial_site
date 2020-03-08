@@ -1,0 +1,97 @@
+#container{
+  width:auto;
+
+
+  margin:0 auto;
+}
+
+#header{
+  height: 100px;
+  padding: 10px 0;
+}
+#brand{
+  float: left;
+}
+
+h1 a{
+  font-size: 40px;
+  font-weight: 100;
+  color: blue;
+  text-decoration: none;
+}
+#menu{
+  height: 70px;
+
+  background: linear-gradient(#667db6,#0082c8)
+
+
+
+}
+
+ul{
+  list-style: none;
+}
+
+#menu ul li{
+  float:left;
+  padding: 0 10px 0px 40px;
+  height: 30px;
+  line-height: 60px;
+
+
+
+}
+
+
+#menu ul li a{
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size: 20px;
+  color: blue;
+  -webkit-transition: font-size 0.3s ease;
+  -moz-transition: font-size 0.3s ease;
+  -o-transition: font-size 0.3s ease;
+  -ms-transition: font-size 0.3s ease;
+  transition: font-size 0.3s ease;
+
+
+}
+
+
+#menu ul li a:hover{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+
+}
+
+#searchbox{
+  float:right;
+  background: linear-gradient(blue,black);
+  width: 400px;
+  height: 40px;
+  padding: 10px 10px 0 10px;
+  margin-top: 10px;
+}
+
+.text{
+  float: left;
+  width:300px;
+  font-size: 15px;
+  padding: 5px;
+  color: red;
+  background: white url(images/search.png) right center no-repeat;
+}
+
+.submit{
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background: black;
+  font-size: 15px;
+}
+
+.clear{
+  clear: both;
+}
